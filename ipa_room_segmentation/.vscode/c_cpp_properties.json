@@ -1,0 +1,36 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/frederik/hector/devel/include/**",
+        "/opt/hector/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/frederik/hector/src/cblox/cblox/include/**",
+        "/home/frederik/hector/src/cblox/cblox_ros/include/**",
+        "/home/frederik/hector/src/cloud_segmentation/include/**",
+        "/home/frederik/hector/src/hector_3d_ugv_path_planning/hector_3d_ugv_path_planning/include/**",
+        "/home/frederik/hector/src/hector_math/hector_math/include/**",
+        "/home/frederik/hector/src/hector_math/hector_math_ros/include/**",
+        "/home/frederik/hector/src/hector_pose_prediction_interface/hector_pose_prediction_interface/include/**",
+        "/home/frederik/hector/src/hector_stability_metrics/hector_stability_metrics/include/**",
+        "/home/frederik/hector/src/hector_world_heightmap/hector_world_heightmap/include/**",
+        "/home/frederik/hector/src/hector_world_heightmap_graph_planning/hector_world_heightmap_graph_planning/include/**",
+        "/home/frederik/hector/src/hector_world_heightmap/hector_world_heightmap_ros/include/**",
+        "/home/frederik/hector/src/rgbd_segmentation/include/**",
+        "/home/frederik/hector/src/scene_graph/scene_graph/include/**",
+        "/home/frederik/hector/src/scene_graph/scene_graph_rviz/include/**",
+        "/home/frederik/hector/src/tsdf-plusplus/tsdf_plusplus/include/**",
+        "/home/frederik/hector/src/tsdf-plusplus/tsdf_plusplus_ros/include/**",
+        "/home/frederik/hector/src/yolact_ros_msgs/include/**",
+        "/home/frederik/hector/src/yolact_spoofer/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

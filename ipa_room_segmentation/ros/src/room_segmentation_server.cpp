@@ -678,7 +678,7 @@ void RoomSegmentationServer::execute_segmentation_server(const ipa_building_msgs
 			if (number_room_pixels == 0)
 				continue;
 			cv::Mat distance_map; //variable for the distance-transformed map, type: CV_32FC1
-			cv::distanceTransform(room, distance_map, CV_DIST_L2, 5);
+			cv::distanceTransform(room, distance_map, cv::DIST_L2, 5);
 			// find point set with largest distance to obstacles
 			double min_val = 0., max_val = 0.;
 			cv::minMaxLoc(distance_map, &min_val, &max_val);
@@ -729,7 +729,7 @@ void RoomSegmentationServer::execute_segmentation_server(const ipa_building_msgs
 		}
 //		cv::Mat disp = segmented_map.clone();
 		for (size_t index = 0; index < room_centers_x_values.size(); ++index)
-			cv::circle(color_segmented_map, cv::Point(room_centers_x_values[index], room_centers_y_values[index]), 2, cv::Scalar(256), CV_FILLED);
+			cv::circle(color_segmented_map, cv::Point(room_centers_x_values[index], room_centers_y_values[index]), 2, cv::Scalar(256), cv::FILLED);
 
 		cv::imshow("segmentation", color_segmented_map);
 		cv::waitKey();
