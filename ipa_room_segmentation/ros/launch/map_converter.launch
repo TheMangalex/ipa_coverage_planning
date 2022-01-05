@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<launch>
+        <node name="ipa_room_segmentation_converter" pkg="ipa_room_segmentation" type="map_converter.py" output="screen" args="-alsologtostderr">
+
+  </node>
+</launch>
+
